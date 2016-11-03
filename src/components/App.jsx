@@ -21,7 +21,6 @@ class App extends Component {
     const {title, open} = this.state
     return (
       <div>
-        <canvas id='canvas'/>
         <NavBar handleToggle={this.handleToggle} title={title}/>
         <SlideDrawer handleToggle={this.handleToggle} open={open} setTitle={this.setTitle}/>
 

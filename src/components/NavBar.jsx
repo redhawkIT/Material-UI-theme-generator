@@ -6,7 +6,7 @@ import Menu from 'material-ui/svg-icons/navigation/menu'
 const NavBar = ({title, handleToggle}) => (
   <AppBar
       title={title}
-      iconElementLeft={<IconButton><Menu className="AppBar__Menu"/></IconButton>}
+      iconElementLeft={<IconButton><Menu/></IconButton>}
       style={{position:'fixed'}}
       zDepth={0}
       onLeftIconButtonTouchTap={handleToggle}

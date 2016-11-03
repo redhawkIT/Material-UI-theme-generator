@@ -9,8 +9,7 @@ const SlideDrawer = ({handleToggle, open, setTitle}) => (
       width={300}
       docked={false}
       open={open}
-      onRequestChange={e => handleToggle(e) }
-      >
+      onRequestChange={e => handleToggle(e)}>
       <IndexLink to="/" className='link' activeClassName="active" onTouchTap={handleToggle}>
         <ListItem primaryText="Home" leftIcon={<Home/>} onTouchTap={e => setTitle('Home')}/>
       </IndexLink>
